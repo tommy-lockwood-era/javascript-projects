@@ -1,8 +1,10 @@
+// Testing various math operations
 4 + 5
 2 - 7
 8 * 2
 9 / 7
 
+// Trying out exponents
 Math.pow(5,2);
 5 ** 2;
 
