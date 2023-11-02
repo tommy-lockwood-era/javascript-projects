@@ -1,3 +1,18 @@
+/**
+ * long description for the file
+ *
+ * @summary short description for the file
+ * @author Tommy Lockwood <t.lockwood@erasolutions.us>
+ *
+ * Created at     : 2017-11-03 02:21:56 
+ * Last modified  : 2018-02-25 15:31:40
+ */
+
+function complexFunction(a,b,c,d,e) {
+    // a bunch of stuff
+    return 5;
+}
+
 // Testing various math operations
 4 + 5
 2 - 7
@@ -82,6 +97,10 @@ if(x > 5) {
     // some code
 } else {
 
+}
+
+function add(x,y) {
+    return x + y;
 }
 
 let choice = "meat";
