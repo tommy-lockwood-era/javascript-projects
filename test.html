@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Objective: To reinforce the concepts of functions and control flow in JavaScript programming language.
+
+        //1. Create a new HTML file with a head tag and an empty body tag in VS Code.
+
+        //2. Within the body, create a script tag and write JavaScript code to do the following:
+
+        //3. Write a function
+        //     -called "isEven"
+        //     -that has a single parameter, a number
+        //     -returns true if the number is even and false if it is odd.
+        //Write a function called "factorial" that takes a single argument, a positive integer, and returns its factorial.
+        //Write a loop that iterates from 1 to 20. For each iteration, use the "isEven" function to determine if the current number is even or odd, and use the "factorial" function to calculate its factorial. Print the results to the console.
+        //Save the HTML file and open it in a web browser. Open the developer console and verify that the results of the loop are printed correctly.
+
+        function isEven(num) {
+            //check if num is even --> check if num is divisible by 2
+            if(num % 2 === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function factorial(num) {
+            let result = 1;
+            for(let i=2; i <= num; i++) {
+                result = result * i;
+            }
+            return result;
+        }
+
+        for(let i=1; i <= 20; i++) {
+            console.log(`Is ${i} even? ${isEven(i)}`);
+            console.log(`Factorial of ${i}: ${factorial(i)}`);
+        }
+
+    </script>
+</body>
+</html>

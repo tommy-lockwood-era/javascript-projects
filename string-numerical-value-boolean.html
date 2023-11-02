@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        -Keep printing random numbers between 1 and 10 to the
+         console until one of them is greater than 5
+         */
+        Math.random(); // Random number 0.0 (inclusive)-1.0 (exclusive)
+        Math.random() + 1; // Random number 1.0 (inclusive)-2.0 (exclusive)
+        Math.random() * 10; // Random number 0.0-9.999999
+        Math.floor(Math.random() * 10); // Random number 0-9
+        Math.floor(Math.random() * 10) + 1; // Random number 1-10
+
+
+        // some sort of control/condition that stops this loop when the random number > 5
+        let randomNum = 0;
+        while(randomNum <= 5) {
+            randomNum = Math.floor(Math.random() * 10) + 1;
+            console.log(randomNum);
+        }
+    </script>
+</body>
+</html>
